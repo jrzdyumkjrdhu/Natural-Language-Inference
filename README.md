@@ -19,7 +19,7 @@ Kaggle submissions for the Natural Language Inference problem https://www.kaggle
 
 * [diff_pruning.ipynb](https://github.com/jrzdyumkjrdhu/Natural-Language-Inference/blob/main/diff_pruning.ipynb): attempt to implement [diff pruning](https://arxiv.org/abs/2012.07463), didn't increase accuracy on Kaggle, wasn't mentioned in presentation
 
-* [presentation.pdf](https://github.com/jrzdyumkjrdhu/Natural-Language-Inference/blob/main/presentation.pdf): presentation of our project
+* [watson_presentation.pdf](https://github.com/jrzdyumkjrdhu/Natural-Language-Inference/blob/main/watson_presentation.pdf): presentation of our project
 
 Launch: 
 * better upload needed notebook to Kaggle and run it there since all experiments were conducted only on Kaggle
