@@ -13,4 +13,14 @@ Kaggle submissions for the Natural Language Inference problem https://www.kaggle
 
 * [xnli_is_bad.ipynb](https://github.com/jrzdyumkjrdhu/Natural-Language-Inference/blob/main/xnli_is_bad.ipynb): the script comparing the xnli dataset to the Kaggle datasets
 
-* [distilbert.ipynb](https://github.com/jrzdyumkjrdhu/Natural-Language-Inference/blob/main/distilbert.ipynb): all further experiments with distilbert
+* [distilbert.ipynb](https://github.com/jrzdyumkjrdhu/Natural-Language-Inference/blob/main/distilbert.ipynb): all further experiments with distilbert. Notebook includes data augmentation (augmented dataset can be found [there](https://github.com/jrzdyumkjrdhu/Natural-Language-Inference/blob/main/data) in .pkl files), SWA and Cyclic Learning Rate)
+
+* [logistic regression](https://github.com/jrzdyumkjrdhu/Natural-Language-Inference/blob/main/logistic_regression): experiments with most simple baseline -- tf-idf + logistic regression. Didn't achieve any results (0.33 accuracy on validation data), wasn't uploaded to Kaggle, wasn't mentioned in presentation
+
+* [diff_pruning.ipynb](https://github.com/jrzdyumkjrdhu/Natural-Language-Inference/blob/main/diff_pruning.ipynb): attempt to implement [diff pruning](https://arxiv.org/abs/2012.07463), didn't increase accuracy on Kaggle, wasn't mentioned in presentation
+
+* [presentation.pdf](https://github.com/jrzdyumkjrdhu/Natural-Language-Inference/blob/main/presentation.pdf): presentation of our project
+
+Launch: 
+* better upload needed notebook to Kaggle and run it there since all experiments were conducted only on Kaggle
+* for DistilBERT experiments, upload .pkl files to Kaggle or ask for access to private Kaggle dataset [there](t.me/kuzyaka)
